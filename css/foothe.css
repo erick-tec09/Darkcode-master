@@ -1,0 +1,67 @@
+
+
+
+/* -------------------suscribete------------------- */
+
+.suscribete-container{
+    background: #303030;
+}
+
+.suscribete{
+    margin: 90px 0px;
+}
+
+.suscribete h2{
+    color: #fff;
+    font-size: 1.9em;
+    text-align: center;
+}
+.suscribete h2 strong{
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.suscribe-grup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.suscribe-grup input{
+    display: block;
+    margin: 20px 0px;
+    width: 300px;
+    height: 35px;
+    padding: 0px 0px 0px 15px;
+    font-weight: 300;
+    outline: none;
+}
+
+.btn-suscribe{
+
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+}
+/* -------------------foother------------------- */
+footer{
+    background: #303030;
+    border-top: 1px solid #fff;
+     padding: 20px 0px;
+}
+.foother-container p{
+
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.9em;
+}
+.foother-container p a{
+
+    color: #fff;
+    text-decoration: none;
+     font-weight: 500;
+}
+/*-------------------------- media-------------------------- */

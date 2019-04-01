@@ -1,0 +1,84 @@
+.banner{
+      
+    background: url('../img/textura-2.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+}
+
+.banner-content{
+    
+   color: #303030;
+}
+.banner-content h1{
+    font-weight: 300;
+    font-size: 1.7em;
+    margin: 50px 0px 30px 0px;
+    width: 200px;
+    height: 100px;
+}
+.banner-content h1 strong{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.banner-content p{
+    font-weight: 300;
+    font-size: 1.2em;
+    width: 300px;
+}
+
+.btn-banner{
+   
+    display: inline-block;
+    color: #303030;
+    border: 1px solid #303030;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    text-transform: uppercase;
+    transition: all 0.7s;
+}
+.btn-banner:hover{
+   
+  
+    color: #fff;
+    background: #303030;
+}
+
+/* ...........................media........................... */
+@media (min-width: 576px) { 
+
+
+}
+@media (min-width: 768px) {
+
+
+
+}
+@media (min-width: 992px) {  
+
+
+
+}
+
+@media (min-width: 1000px) {  
+    .banner {
+       
+        height: 700px;
+      
+    }
+    .about-me-title h2 {
+    
+        padding-top: 230px;
+       
+    }
+
+
+}
+@media (min-width: 1200px) {  
+
+
+
+}
+

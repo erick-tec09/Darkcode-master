@@ -1,0 +1,318 @@
+.seraration{
+    height: 20px;
+}
+.about-me-title h2{
+    margin: 80px 0px 25px 0px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+}
+
+/* .about-me-title h2::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 55px;
+    width: 50px;
+    height: 2px;
+    background: #333;
+}
+.about-me-title h2::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 55px;
+    width: 50px;
+    height: 2px;
+    background: #333;
+} */
+.about-me h3{
+    font-weight: 300;
+    margin: 20px 0px;
+    color: #333333;
+    font-size: 1em;
+}
+.about-me h3 strong{
+    font-size: 1.1em;
+    font-weight: 900;
+}
+.about-me p{
+    font-weight: 300;
+    color: #333;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    margin: 20px 0px;
+    text-align: justify;
+}
+.btn-downald{
+   text-decoration: none;
+   color: #fff;
+   background: #333;
+   display: inline-block;
+   margin: 20px 0px;
+   text-align: center;
+   padding: 16px 30px 15px 29px;
+}
+
+
+/* ----------------------experto en ---------------------- */
+.expert h3 {
+    font-weight: 300;
+    margin: 20px 0px;
+    color: #333333;
+    font-size: 1em;
+}
+.expert strong {
+    font-size: 1.1em;
+    font-weight: 900;
+}
+.expert p{
+    font-weight: 300;
+    color: #333;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    margin: 20px 0px;
+}
+.expert h4{
+    font-size: 0.9em;
+}
+.progressBar{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    z-index: -1;
+    background: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+ 
+}
+.title{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    padding-left: 10px;
+    float: left;
+    color: #fff;
+    line-height: 1.5;
+    z-index: 10000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: 300;
+    font-size: 0.8em;
+   
+    
+}
+.progress_value{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #455a64;
+    z-index: 10000;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.progress{
+    height: 20px;
+    position: absolute;
+    border-radius: 5px;
+}
+.htmlColor, .cssColor, .jsColor, .phpColor, .ajaxColor, .html, .css, .js, .php, .ajax{
+    background: #333;
+}
+
+/* ----------------------Education------------------------ */
+.education-container{
+    background: #fff;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 0px 2px rgba(242,242,242,1);
+}
+education h3{
+    font-weight: 300;
+    margin: 20px 0px;
+    color: #333333;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.education strong{
+    font-size: 1em;
+   
+}
+.education-text{
+    width: 300px;
+    height: 100px;
+}
+.education-text p{
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.education-text strong{
+    font-size: 0.9em;
+}
+.education-items{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+
+}
+.education-details{
+    /* padding-left: 30px; */
+    width: 200px;
+}
+.education-details h4{
+    font-weight: 300;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+.education-details p{
+    font-weight: 300;
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+
+
+/* ----------------------experiencie------------------------ */
+.expert{
+    
+    margin: 50px 0px;
+}
+.experiencie-container{
+    background: #fff;
+    padding: 25px 20px;
+    margin: 60px 0px;
+    box-shadow: 0px 0px 0px 2px rgba(242,242,242,1);
+}
+.experiencie h4{
+    font-weight: 300;
+    margin: 20px 0px;
+    color: #333333;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.experiencie  h4 strong{
+    font-weight: 900;
+    font-size: 1em;
+}
+.experiencie-text{
+    width: 300px;
+    height: 100px;
+}
+.experiencie-text p{
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.experiencie-text strong{
+    font-size: 0.9em;
+}
+.experiencie-items{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+
+}
+.experiencie-details{
+    width: 200px;
+}
+.experiencie-details h4{
+    font-weight: 300;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+.experiencie-details p{
+    font-weight: 300;
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+
+
+/*------------------------- media------------------------- */
+@media (min-width: 500px) { 
+
+    .education-details {
+        
+
+        width: 300px;
+        
+    }
+    .experiencie-details{
+        width: 300px;
+      
+    }
+ }
+@media (min-width: 768px) { 
+
+    .education-container {
+        margin: 20px 0px;
+    }
+    
+    .experiencie-container{
+        margin: 20px 0px;
+    }
+    .experiencie-items{
+        margin: 20px 0px;
+    }
+    .expert{
+    
+        margin: 0px;
+    }
+    .about-me-title h2::after{
+        left: 165px;
+      
+    }
+    .about-me-title h2::before{
+     
+        right: 165px;
+       
+    }
+
+}
+
+
+@media (min-width: 992px) {
+
+    .about-me-title h2::after{
+        left: 285px;
+      
+    }
+    .about-me-title h2::before{
+     
+        right: 285px;
+       
+    }
+    .education-details p {
+        
+
+        height: 150px;
+       
+        
+    }
+    .experiencie-details p{
+       
+        height: 150px;
+       
+    }
+
+ }
+
+@media (min-width: 1200px) { 
+
+    .about-me-title h2::after{
+        left: 375px;
+      
+    }
+    .about-me-title h2::before{
+     
+        right: 375px;
+       
+    }
+}

@@ -1,0 +1,126 @@
+/* ----------------------contacto---------------------- */
+.contac-container{
+    margin: 20px 0px;
+}
+.contact-items{
+    margin: 30px 0px;
+}
+.contac-container i{
+    float: left;
+    color: #333333;
+    font-size: 1em;
+    line-height: 35px;
+}
+.rectangule{
+     border: 1px solid #333333;
+     width: 35px;
+     height: 35px;
+     text-align: center
+}
+.contac-container p{
+    margin-left: 40px;
+    color: #333333;
+    font-weight: 300;
+    font-size: 0.9em;
+    padding-top: 10px;
+}
+/* ----------------------contacto  MENU---------------------- */
+.menu-contact{
+   padding: 20px 0px;;
+}
+.rectangule1{
+
+    border: 1px solid #333333;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    transition: all 0.7s;
+}
+.rectangule1:hover{
+    background: #333333;
+    color: #fff;
+}
+.menu-contact{
+    margin: 30px  0px;
+}
+.menu-contact ul  li{
+    list-style: none;
+    display: inline-block;
+     margin: 0px 2px;
+}
+.menu-contact ul  li i{
+    font-size: 1em;
+    color: #333333;
+    line-height: 35px;
+}
+/* ----------------------formulario---------------------- */
+.formulario-container h2{
+
+  
+}
+form{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 250px;
+    margin: 5px 0px;
+    padding: 5px 0px 5px 10px;
+    outline: none;
+    font-weight: 300;
+    font-size: 0.9em;
+    border: none;
+    border: 1px solid #E9E9E9;
+    color: rgb(141, 139, 139);
+}
+textarea{
+    width: 250px;
+    height: 200px;
+    margin: 5px 0px;
+    padding: 5px 0px 5px 10px;
+    outline: none;
+    font-weight: 300;
+    font-size: 0.9em;
+    border: none;
+    border: 1px solid #E9E9E9;
+    color: rgb(141, 139, 139);
+}
+.btn-form{
+    display: inline-block;
+    text-decoration: none;
+    background: #333333;
+    color: #fff;
+    margin: 10px 0px;
+    padding: 10px 30px;
+     transition: all 0.5s;
+}
+.btn-form:hover{
+    background: #fff;
+    color: #333333;
+    border: 1px solid #333333;
+}
+/* ----------------------mapa---------------------- */
+.google-maps {
+    width: 100%;
+}
+.google-maps iframe {
+    width: 100%;
+    display: block;
+}
+/* --------------------------------media-------------------------------- */
+
+@media (min-width: 768px) { 
+.contac{ margin: 50px 0px;}
+.contac h2{padding-bottom: 20px;}
+.formulario-container{margin: 49px 0px;}
+.formulario-container h2{padding-bottom: 20px;}
+form{width: 350px;}
+input { }
+textarea{ }
+ }
+
+ @media (min-width: 992px) { 
+    form{width: 450px;}
+}

@@ -1,0 +1,91 @@
+#carousel_container{
+    display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin: 40px 0px;
+    background: #373737;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100px;
+}
+#carousel_inner {
+    float: left;
+    width: 730px;
+    overflow: hidden;
+     transition: all 0.5s;
+     margin: auto;
+}
+#carousel_ul li img {
+    width: 200px;
+    height: 110px;
+
+}
+#carousel_ul {
+    position: relative;
+    left: -210px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 9999px;
+    padding-bottom: 10px;
+    
+
+}
+#carousel_ul li {
+    float: left;
+    width: 200px;
+    padding: 0px;
+    height: 110px;
+    margin-top: 10px 5px;
+    margin-right: 10px;
+}
+#carousel_ul li img {
+    margin-bottom: -4px;
+    cursor: pointer;
+    cursor: hand;
+    border: 0px;
+}
+#left_scroll, #right_scroll {
+    float: left;
+    height: 130px;
+    width: 35px;
+    margin-top: 50px 0px 0px 20px;
+}
+#left_scroll img, #right_scroll img {
+    border: 0;
+    /* remove the default border of linked image */
+   /*styling*/
+    cursor: pointer;
+    cursor: hand;
+   }
+#left_scroll img {
+    width: 25px;
+    height: 25px;
+   }
+#right_scroll img {
+    width: 25px;
+    height: 25px;
+   }
+
+
+/* -------------------------------media------------------------------- */
+
+@media (min-width: 576px) { 
+#carousel_inner {
+}
+}
+@media (min-width: 768px) {
+#carousel_inner {
+    width: 900px;
+}  
+}
+@media (min-width: 992px) { 
+#carousel_inner {
+    width: 1200px;
+}     
+}
+@media (min-width: 1200px) { 
+#carousel_inner {
+    width: 1500px;
+}      
+}
